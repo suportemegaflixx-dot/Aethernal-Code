@@ -70,7 +70,7 @@
 - pip (gerenciador de pacotes Python)
 - Git
 
-### Instalação Rápida
+### 🚀 Instalação Rápida
 
 ```bash
 # Clone o repositório
@@ -86,29 +86,44 @@ venv\Scripts\activate     # Windows
 # Instale as dependências
 pip install -r requirements.txt
 
-# Execute o jogo
-python main.py
-```
-
-### Configuração do Servidor (Opcional)
-
-```bash
-# Para desenvolvedores que querem rodar o servidor local
-cd server/
-python server.py
-
-# Em outro terminal, execute o cliente
-cd client/
+# Execute o cliente (conecta automaticamente ao servidor oficial)
 python client.py
 ```
 
+### 🌐 Servidor Oficial vs Desenvolvimento Local
+
+#### 🎮 **Modo Jogador (Recomendado)**
+```bash
+# Conecta ao servidor oficial - sem configuração adicional
+python client.py
+# Servidor: aethernal-code.ddns.net:7777
+```
+
+#### 🛠️ **Modo Desenvolvedor (Contribuidores)**
+```bash
+# Para desenvolvimento e testes locais
+cd server/
+python server.py
+
+# Em outro terminal, execute o cliente local
+cd client/
+python client.py --local
+```
+
+> ⚠️ **Nota**: Servidores privados requerem autorização. Ver [Licença e Uso](#️-licença-e-uso)
+
 ## 🎮 Como Jogar
 
-1. **Primeira Vez**: Crie sua conta e personagem
-2. **Explore**: Use WASD para mover, mouse para interagir
-3. **Lute**: Clique nos inimigos para atacar
-4. **Evolua**: Ganhe experiência e melhore suas habilidades
-5. **Socialize**: Use o chat para conversar com outros jogadores
+### 🌐 **Conectar ao Servidor Oficial**
+1. **Download**: Clone o repositório ou baixe o release
+2. **Primeira Vez**: Crie sua conta e personalize seu personagem
+3. **Conectar**: O cliente conecta automaticamente ao servidor oficial
+4. **Explorar**: Use WASD para mover, mouse para interagir
+5. **Socializar**: Use o chat para conversar com outros jogadores online
+
+### 🎯 **Servidor Oficial vs Local**
+- **🌐 Oficial**: Jogadores reais, economia ativa, eventos especiais
+- **🏠 Local**: Apenas para desenvolvimento (requer autorização para servidor privado)
 
 ### Controles Básicos
 - `WASD` - Movimento
@@ -215,20 +230,16 @@ Agradecimentos especiais a:
 - **Open Source Community** - Por inspirar este projeto
 - **Nossos Contribuidores** - Vocês tornam este projeto possível
 
-## 📄 Licença
 
-Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-```
-MIT License - Você pode usar, modificar e distribuir livremente!
-```
 
 ## 🔗 Links Importantes
 
 - **🌐 Website**: [Em breve]
-- **📊 Status do Servidor**: [Em breve]
+- **🎮 Servidor Oficial**: `aethernal-code.ddns.net:7777` 🟢 **ONLINE**
+- **📊 Status do Servidor**: [Monitor em tempo real](http://aethernal-code.ddns.net:8080/status)
 - **📋 Kanban Board**: [Link do Trello/GitHub Projects]
 - **🎮 Downloads**: [Releases](https://github.com/seu-usuario/aethernal-code/releases)
+- **⚖️ Termos de Uso**: [Leia nossa política](#️-licença-e-uso)
 
 ## 💬 Contato e Suporte
 
@@ -247,9 +258,15 @@ MIT License - Você pode usar, modificar e distribuir livremente!
 
 <div align="center">
 
-**⭐ Se você gostou do projeto, deixe uma estrela! ⭐**
+### ⭐ **Se você gostou do projeto, deixe uma estrela!** ⭐
 
-**🚀 Junte-se à nossa jornada de criar o próximo grande MMORPG open source! 🚀**
+### 🎮 **JOGUE AGORA: `aethernal-code.ddns.net:7777`** 🎮
+
+### 🚀 **Junte-se à nossa jornada de criar o próximo grande MMORPG open source!** 🚀
+
+---
+
+**⚖️ Respeite nossos [Termos de Uso](#️-licença-e-uso) | 🤝 Contribuições sempre bem-vindas | 💬 Dúvidas? Entre em contato**
 
 *Feito com ❤️ pela comunidade Aethernal Code*
 
